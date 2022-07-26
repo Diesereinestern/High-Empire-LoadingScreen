@@ -1,7 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<title>Ladebildschirm</title>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/sleek.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
 <body>
-<h1>Yeet</h1>
+	<div id="player"></div>
+	<div id="overlay"></div>
 
+	<div id="title"></div>
+	<div id="subtitle">
+		<span class="yeet3 text__shadow">Wir spielen</span> <span class="yeet3 text__shadow" id="gamemode">Imperial-Roleplay</span> <span class="yeet3 text__shadow">auf der Map:</span>   <span class="yeet3 text__shadow" id="map"> rp_ERROR</span>
+	</div>
+
+	<div id="status-container">
+		<div class="yeet2 text__shadow" id="status">Rufe Server Info ab...</div>
+		<div id="loading">
+			<div class="yeet2 text__shadow" id="loading-progress"></div>
+		</div>
+		<div class="text__shadow" id="messages"></div>
+	</div>
+
+	<div class="mucke text__shadow" id="music">
+		<span class="yeet4">Du hörst gerade:</span><br><span class="yeet4" id="music-name"></span>
+	</div>
+	
+	
+          <span class="w3-display-bottomright yeet5 text__shadow">© 2022 Star#2795</span>
+
+
+	<script src="js/lib/jquery-2.1.1.min.js"></script>
+	<script src="js/lib/jquery.backstretch.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/sleek.js"></script>
 </body>
 </html>
