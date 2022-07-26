@@ -92,7 +92,7 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "t0CRQCQCc5M", name: "Imperial March"}
+	{ogg: "songs/Star Wars Imperial March (1 hour).ogg", name: "Imperial March"}
 ];
 
 /*Random music order?*/
@@ -100,7 +100,7 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 25;
+var l_musicVolume = 95;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
